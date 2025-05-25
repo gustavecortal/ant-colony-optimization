@@ -12,14 +12,14 @@ python main.py [options]
 
 **Options:**
 
-* `--size`, `-n`: Number of cities in the TSP instance
+* `--size`, `-n`: Number of cities
 * `--pheromone_influence`: Exponent for pheromone strength
 * `--heuristic_influence`: Exponent for heuristic information
 * `--evaporation_rate`: Rate at which pheromone evaporates each iteration
 * `--initial_pheromone_factor`: Scaling factor for initial pheromone level
-* `--ants`: Number of ants per iteration (defaults to number of cities)
+* `--ants`: Number of ants per iteration
 * `--iters`: Number of optimization iterations
-* `--seed`: Random seed for reproducibility
+* `--seed`: Random seed
 
 ## Algorithm details
 
