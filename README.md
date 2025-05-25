@@ -1,6 +1,6 @@
 ## Ant colony optimization for the traveling salesman problem
 
-A minimal implementation of ant colony optimization for solving the travelling salesman problem
+A minimal implementation of ant colony optimization for solving the travelling salesman problem.
 The solver is implemented in Python, fully written in NumPy, and accelerated using Numba.
 
 ## Usage
