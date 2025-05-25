@@ -1,6 +1,6 @@
-## Ant Colony Optimization for the Traveling Salesman Problem
+## Ant colony optimization for the traveling salesman problem
 
-An implementation of the Ant Colony Optimization to approximate solutions for the Traveling Salesman Problem. 
+A minimal implementation of ant colony optimization for solving the travelling salesman problem
 The solver is implemented in Python, fully written in NumPy, and accelerated using Numba.
 
 ## Usage
@@ -20,14 +20,14 @@ python main.py [options]
 * `--iters`: Number of optimization iterations
 * `--seed`: Random seed for reproducibility
 
-## Algorithm Details
+## Algorithm details
 
 1. **Initialization**
 
    * Compute the nearest-neighbor tour length.
    * Set all pheromone values to `initial_pheromone_factor * num_cities / initial_length`.
 
-2. **Iteration Loop**
+2. **Iteration loop**
 
    * Each ant constructs a tour probabilistically, influenced by pheromone and heuristic matrices.
    * Compute the cost of each tour.
